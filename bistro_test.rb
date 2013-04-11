@@ -7,8 +7,8 @@ puts bistro.list_recipes
 # The output should look like this:
 
 # 1. Kale Burger
-# 2. Poodle Cake (For your puppy!)
-# 3. Peanut Butter Coffee Brownie
+# 2. Peanut Butter Coffee Brownie
+# 3. Poodle Cake (For your puppy!)
 puts bistro.find_recipe_by_id(1)
 
 # The output should look like this:
