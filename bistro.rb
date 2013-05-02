@@ -30,15 +30,15 @@ end
 
 
 
-if $ARGV.any?
+if ARGV.any?
 
   # I wonder if I could clean this up...
   bistro = Bistro.new
-  bistro.load_recipes("recipes.csv")
+  bistro.load_recepes("recipes.csv")
 
-  if $ARGV[0] == "list"
-    puts bistro.list_recipes
-  elsif $ARGV[0] == "display"
-    puts bistro.find_recipe_by_id($ARGV[1])
+  if ARGV[0] == "list"
+    puts "TODO: implement listing of recipes"
+  elsif ARGV[0] == "display"
+    puts find_recipe_by_id(ARGV[1])
   end
 end
