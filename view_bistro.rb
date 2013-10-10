@@ -1,5 +1,5 @@
 require 'csv'
-require 'pry'
+# require 'pry'
 
 class BistroView
   class << self
